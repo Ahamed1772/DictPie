@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.42",
+    "@browserai/browserai": "^2.0.4",
+    "@google/genai": "^1.22.0",
+    "@google/generative-ai": "^0.24.1",
+    "@milcondev/free-ai": "^6.0.0",
+    "ai": "^5.0.60",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "en-dictionary": "^2.0.3",
+    "en-wordnet": "^2.0.11",
+    "express": "^5.1.0",
+    "google-translate-api-x": "^10.7.2",
+    "google-tts-api": "^2.0.2",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.6",
+    "openai": "^6.1.0",
+    "openai-free": "^1.0.1",
+    "wn": "^0.0.30"
+  }
+}

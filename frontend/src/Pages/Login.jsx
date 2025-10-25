@@ -23,7 +23,10 @@ export default function LoginPage() {
       queryClient.invalidateQueries({ queryKey: ["authUser"] });
       navigate('/dashboard');
     },
-    onError: (err) => toast.error(err?.response?.data?.message || "Login failed")
+    onError: (err) => {
+      toast.error(err?.response?.data?.message || "Login failed");
+      console.log(err);
+    }
   });
 
   const handleLogin = (e) => {
